@@ -1,0 +1,16 @@
+name: zueribrunne
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.10.*
+  - pip
+  - flask
+  - flask-sqlalchemy
+  - flask-login
+  - flask-bcrypt
+  - flask-cors
+  - jsonschema
+  - gunicorn
+  - pip:
+    - mariadb==1.0.*
